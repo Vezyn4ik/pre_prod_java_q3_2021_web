@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+    background: #FCFCFC;
+}
+
+.wrap {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.account_desc {
+    padding: 20px 0;
+    float: right;
+}
+
+.account_desc li {
+    display: inline;
+}
+
+.account_desc li a {
+    font-size: 0.823em;
+    color: #9C9C9C;
+    padding: 0 10px;
+    font-family: 'ambleregular';
+}
+
+.account_desc li form {
+    font-size: 0.823em;
+    color: #9C9C9C;
+    padding: 0 10px;
+    font-family: 'ambleregular';
+}
+
+.account_desc li a:hover {
+    color: #E4292F;
+}
+
+.header_bottom {
+    background: #383838;
+    border-radius: 6px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, img, ol, nav ul, nav li, form, label, article, aside, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}

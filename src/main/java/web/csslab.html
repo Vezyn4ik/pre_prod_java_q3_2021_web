@@ -1,0 +1,571 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+    <title>Shop Website</title>
+   
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #FFF;
+        }
+        .wrap {
+            width:80%;
+            max-width:1200px;
+            margin: 0 auto;
+        }
+    </style>
+    <script type="text/javascript" src = "js/script.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+        
+    <script>
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
+    <script>
+$(function(){
+ $('#tab').tabs({
+ show: { effect: "fade", duration: 300 },
+ hide: { effect: "fade", duration: 300 },
+ });
+});
+
+    </script>
+    
+    
+</head>
+<body>
+    <div class="header animl">
+        <div class="wrap">
+            <div class="headertop_desc">
+                <div class="call">
+                    <p><span>Нужна помощь?</span> звони(-те) <span class="number">122-345-6789</span></p>
+                </div>
+                <div class="account_desc">
+                    <ul>
+                        <li><a href="https://login.aliexpress.com/buyer_ru.htm?">Регистрация</a></li>
+					    <li><a href="https://login.aliexpress.com/buyer_ru.htm?">Войти</a></li>
+					    <li><a href="https://login.aliexpress.com/buyer_ru.htm?">Доставка</a></li>
+					    <li><a href="https://login.aliexpress.com/buyer_ru.htm?">Мой аккаунт</a></li>
+				    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+			<div class="logo">
+				<a href="csslab.html"><img src="images/logo.png" title="logotip" alt="" /></a>
+			</div>
+            <div class="wel">
+                  <p>Добро пожаловать! </p>
+            </div>
+            <div class="clear"></div> 
+            <div class="header_bottom">
+                <nav>
+                    <div class="menu">
+                        <ul>
+                            <li class="active"><a  class = "nav_link" href="csslab.html">Home</a></li>
+                            <li><a href="#anchor3">О нас</a></li>
+                            <li><a  href="https://rozetka.com.ua/payments-and-deliveries/">Доставка</a></li>
+                            <li><a  href="#anchor1">Новинки</a></li>
+                            <li><a href="#anchor2">Контакты</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                        
+                    </div>
+                </nav>
+                <div class="search_box">
+                    <form>
+                        <input type="text" placeholder="Search" >
+                        <input type="submit" value="">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>	  
+        </div>
+    </div>
+    <div class="wrap">
+	<div class="header_slide animr">
+			<div class="header_bottom_left">				
+				<div class="categories">
+                    <h3>Категории</h3>
+				  <ul >
+				      <li><a href="#">Смартфоны</a></li>
+				      <li><a href="#">Ноутбуки и Компьютеры</a></li>
+				      <li><a href="#">Товары для дома</a></li>
+				      <li><a href="#">Бытовая техника</a></li>
+				      <li><a href="#">Электроника</a></li>
+				       <li><a href="#">Спорт и Увлечения</a></li>
+				       <li><a href="#">Обувь</a></li>
+				       <li><a href="#">Украшения</a></li>
+				       <li><a href="#">Одежда</a></li>
+				       <li><a href="#">Дом и Кухня</a></li>
+				       <li><a href="#">Красота и Здоровье</a></li>
+				       <li><a href="#">Игрушки и Куклы</a></li>
+				  </ul>
+				</div>					
+	  	     </div>
+        	 <div class="header_bottom_right">	
+                 <div class="slide" >
+                    <div class="slider">
+                        <div class=" shadow"> 
+		
+                            <div class="carousel-wrapper"> 
+		   
+              
+                                <div class="carousel-items"> 
+			  
+                                    <div class="carousel-block_s">
+					<img src="images/slide-1-image.png" alt="" />
+			  
+                                    </div>
+			  
+                                    <div class="carousel-block_s">
+					<img src="images/slide-2-image.jpg" alt="" />
+			  
+                                    </div>
+			  
+                                    <div class="carousel-block_s">
+					<img src="images/slide-3-image.jpg" alt="" />
+			  
+                                    </div>
+			  
+                                    <div class="carousel-block_s">
+					<img src="images/slide-2-image.jpg" alt="" />
+			  
+                                    </div>
+			  
+                                    <div class="carousel-block_s">
+					<img src="images/slide-1-image.png" alt="" />
+			  
+                                    </div>
+			  
+		   
+                                </div>
+		
+                            </div>
+ 
+                        </div>
+
+                     </div>    
+                     
+                     <div class="slider-text">
+                         <h1>Невероятная<br><span>скидка</span></h1>
+                         <h2>До 40% </h2>
+                         <div class = "scroll_text">
+                             <h4>Если говорить правильно, то это внесезонная скидка. Простой пример – пуховики, шубы, горнолыжные костюмы.
+                            То есть скидка дается на группы товаров, для которых сейчас “не сезон”. Как правило опытные (и экономные) люди ждут таких “распродаж” и покупают летнюю резину зимой и наоборот.
+                                 Если говорить правильно, то это внесезонная скидка. Простой пример – пуховики, шубы, горнолыжные костюмы.
+                            То есть скидка дается на группы товаров, для которых сейчас “не сезон”. Как правило опытные (и экономные) люди ждут таких “распродаж” и покупают летнюю резину зимой и наоборот.
+                            </h4>
+                        </div>	
+                    </div>			               
+				    <div class="clear"></div>
+                 </div>				              				<div class="clear"></div>					       
+		     </div>
+		     <div class="clear"></div>
+    </div>
+    </div>
+    <div class="content ">
+        <div class="content_top animl">
+            <div class="heading">
+                <h3>Новые Товары</h3>
+    		</div>
+    		<div class="see">
+    			<p id='but'>Показать все товары</p>
+    		</div>
+    <div class="clear"></div>
+    	</div>
+        <div id="frs">
+        <div class="grid animr" >
+            
+            <div class="gridleft">
+                
+                <div class="descr ">
+                <h1 class="scroll_text_grid">«Микронаушники с защитой от влаги подарят непревзойденное звучание музыки и телефонных разговоров. Запатентованная функция Secure fit обеспечит экстракомфорт в любой ситуации – от спортзала до прогулок по горам. Время непрерывной работы до 8 часов.
+                Берите наушники в спортзал и не беспокойтесь о подзарядке. Высокое качество звучания любимых мелодий, носите телефон или плеер в кармане».
+                Описание говорит о том, что действительно важно.
+                Axe знает, что сказать мужчинам:
+                </h1>
+                
+                </div>
+                <div class="first" >
+                   <img src="images/feature-pic1.jpg" title="TV" alt="" />
+                <h2>Телевизор Samsung UE43NU7097UXUA </h2>   
+            <div class="price-details">    
+                    <p>$620.87</p> 
+            </div>
+                </div>        
+                
+            </div>
+            <div class="gridright">
+                <div class="descl">
+                    <h1 class="scroll_text_grid">«Микронаушники с защитой от влаги подарят непревзойденное звучание музыки и телефонных разговоров. Запатентованная функция Secure fit обеспечит экстракомфорт в любой ситуации – от спортзала до прогулок по горам. Время непрерывной работы до 8 часов.
+                    Берите наушники в спортзал и не беспокойтесь о подзарядке. Высокое качество звучания любимых мелодий, носите телефон или плеер в кармане».
+                    Описание говорит о том, что действительно важно.
+                    Axe знает, что сказать мужчинам:</h1>
+                </div>        
+                <img src="images/feature-pic2.jpg" title="sound" alt="" />
+                <h2>Yamaha Set NS-51 Black (Y12120)</h2>
+				<div class="price-details">
+                        <p>$899.75</p>
+                    <div class="clear"></div>
+				</div>
+            </div>
+            <div class="gridleft" >
+                <div class="descr">
+                <h1 class="scroll_text_grid">«Микронаушники с защитой от влаги подарят непревзойденное звучание музыки и телефонных разговоров. Запатентованная функция Secure fit обеспечит экстракомфорт в любой ситуации – от спортзала до прогулок по горам. Время непрерывной работы до 8 часов.
+                Берите наушники в спортзал и не беспокойтесь о подзарядке. Высокое качество звучания любимых мелодий, носите телефон или плеер в кармане».
+                Описание говорит о том, что действительно важно.
+                Axe знает, что сказать мужчинам:
+                </h1>
+                </div>
+                <div class="first">
+                <img src="images/feature-pic3.jpg" title="photo" alt="" />
+				<h2>Фотоаппарат Nicon IXUS 185 Black </h2>
+				<div class="price-details">
+                        <p>$599.00</p>
+                    
+				</div>
+                </div>
+            </div>
+            <div class="gridright">
+                <div class="descl">
+                <h1 class="scroll_text_grid">«Микронаушники с защитой от влаги подарят непревзойденное звучание музыки и телефонных разговоров. Запатентованная функция Secure fit обеспечит экстракомфорт в любой ситуации – от спортзала до прогулок по горам. Время непрерывной работы до 8 часов.
+                Берите наушники в спортзал и не беспокойтесь о подзарядке. Высокое качество звучания любимых мелодий, носите телефон или плеер в кармане».
+                Описание говорит о том, что действительно важно.
+                Axe знает, что сказать мужчинам:
+                </h1>
+                </div>
+                <img src="images/feature-pic4.jpg" alt="" />
+				<h2>Телевизор Sony KDL43WF805BR Black </h2>
+				<div class="price-details">
+                        <p>$679.87</p>
+					<div class="clear"></div>
+				</div>	
+            </div>
+        </div>
+        </div>
+        <div class="content_bottom animl">
+            <div class="heading" id="anchor1">
+                <h3>Рекомендуемые товары </h3>
+    		</div>
+    		<div class="see">
+    			<p><a href="https://rozetka.com.ua">Посмотреть все товары</a></p>
+    		</div>
+    		<div class="clear"></div>
+    	</div>
+        
+        <div class="carousel shadow animr"> 
+      <div class="carousel-button-left"><a href="#"></a></div> 
+      <div class="carousel-button-right"><a href="#"></a></div> 
+		<div class="carousel-wrapper"> 
+		   <div class="carousel-items" id = "sortable"> 
+			  <div class="carousel-block" >
+					<img src="images/new-pic1.jpg" title="photo" alt="" />	
+                <h2>Фотоаппарат Canon  Black </h2>
+				<div class="price-details">
+                        <p>$849.99</p>
+                  <div class="clear"></div>
+				</div>
+			  </div>
+			  <div class="carousel-block">
+					<img src="images/new-pic2.jpg" title="sound" alt="" />
+					 <h2>JBL Studio 270 Black  </h2>
+					 <div class="price-details">
+							<p>$599.99</p>	    
+                        <div class="clear"></div>
+                     </div>
+                
+			  </div>
+			  <div class="carousel-block">
+					<img src="images/new-pic4.jpg" title="TV" alt="" />
+					<h2>Телевизор LG 49UM7100PLB </h2>
+					<div class="price-details">   
+                        <p>$799.99</p>
+                        <div class="clear"></div>
+					</div>
+			  </div>
+			  <div class="carousel-block">
+				<img src="images/new-pic3.jpg" title="sound" alt=""  />
+                <h2>DALI Spektor 6 Walnut </h2>		 
+					 <div class="price-details">
+							<p>$899.99</p>
+						<div class="clear"></div>
+					</div>
+                
+			
+			  </div>
+			  
+			  
+		   </div>
+		</div>
+   </div>
+     
+        <div class="clear"></div>
+        
+        <div>
+       <form name="form" action="#" autocomplete = "off" class="transparent" onsubmit = "return validateForm()">
+           <div class = "form-inner">
+               <h3>Оставьте заявку на участие в "Black Friday"</h3>
+               <div class="clear"></div>
+               
+                   <h1 id = "item6"></h1>
+               <div class="clear"></div>
+               <div id = "item1">
+                   <label>Имя <input  type = "text" name = "name" placeholder = "Влад" id="name" ></label>
+                   <label>Email <input name = "email"  type = "text" placeholder = "top@gmail.com" ></label>   
+               </div>
+              
+               <div id = "item2">
+                    <img id="my_image" title="TV" alt="" />
+                   <label for = "county_city">Категория <select  id="category" name = "category" >
+                       <option  value="0">(Выберите категорию)</option>
+                       <option value="1">Смартфоны</option>
+                       <option value="2">Ноутбуки</option>
+                       <option value="3">Бытовая техника</option>
+                       <option value="4">Электроника</option>
+                       <option value="5">Обувь</option>
+                       </select></label>
+                   <label for = "item2_4">Телефон <input name="tel_no" id = "num" type = "text" placeholder = "38(___)___-____" ></label>
+                   <label>Дата <input type="date" name="date" value="2019-09-01" ></label>       
+               </div>
+               <textarea id = "comment" rows = "3" cols = "40" name = "comment" placeholder = "Текст..." ></textarea>        
+               <input id="custom-checkbox" name = "ch_b" type="checkbox" >
+               <label for="custom-checkbox">Я согласен на <a href = "https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" target = "_blank" class="link">обработку персональных данных</a></label> 
+               <div id = "item5">
+               <button id = "item5_1" >Отправить</button>
+               </div>                    
+           </div>
+           <svg height="180" width="500">
+               <defs>
+                   <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                       <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                       <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+               <ellipse cx="120" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+               <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">Home</text>
+               Sorry, your browser does not support inline SVG.
+           </svg>
+           
+            </form>
+        </div>  
+        
+        <div class="faqs">
+    	  <h2>Часто задаваемые вопросы:</h2>
+        <div id="accordion">
+           
+			    <div class="tab bar">
+                    <h4 class="post-title">1.Мне нужно подешевле. Что можете предложить?</h4>
+                </div>
+			    <div class="panel margin-lr-7">
+            		<p>Мы работаем в условиях насыщенного разнообразными предложениями рынка, где практически всегда цена обратно пропорциональна качеству продукции. Политика компании «Склад Сервис» ориентирована на поставку качественных товаров и, как следствие, их удобную, длительную и безопасную эксплуатацию. Мы готовы предложить товары разных ценовых категорий, но помните  - радость от сэкономленных денег длится значительно меньше, чем разочарование от неудачного приобретения .Для более крупных заказов условия оплаты согласовываются индивидуально в каждом конкретном случае. Они зависят от типа продукции и объема заказа. Как правило, часть оплаты происходит в момент запуска в производство, часть перед отгрузкой, последняя часть после доставки или выполненных монтажных работ (если таковые были).
+                    </p>
+			    </div>		   
+                <div class="tab bar">
+                     <h4 class="post-title"> 2.Что происходит после смерти?</h4>
+                </div>
+				<div class="panel margin-lr-7">
+	        		 <p>Что же происходит после смерти – не совсем ясно. В Откровении 20:11-15 описано, что все, пребывающие в аду, были брошены в озеро огненное. А главы 21-22 этой книги описывают Новое Небо и Новую Землю. Поэтому, похоже, что человек после смерти находится во «временном» раю или аду до свершения суда. Вечная участь человека не изменяется, меняется только конкретное «местонахождение», где он проведет вечность. В определенный момент после смерти верующие попадут на Новое Небо и Новую Землю (Откровения 21:1). Одновременно, неверующие будут брошены в озеро огненное (Откровение 20:11-15). Это является окончательной и вечной участью всех людей, полностью зависящей от того, верил ли человек, что только Иисус Христос спасает его от грехов.</p>
+                </div>
+                <div class="tab bar">
+                     <h4 class="post-title"> 3.Выполняет ли «Склад Сервис» монтаж стеллажей (шкафов, подъемных столов и т.д.)?</h4>
+                </div>
+				<div class="panel margin-lr-7">
+	        		 <p>Монтажные бригады «Склад Сервис» оснащены всем необходимым инструментом для выполнения проектов различного уровня сложности, включая спецодежду, снаряжение для высотных работ, современное монтажно-сборочное оборудование. При комплектации монтажных бригад мы отдаем предпочтение проверенным временем брендам скоростного, высокопроизводительного, точного и надежного, инструмента.В случаях, когда для выполнения установки требуется обеспечить какие-либо нестандартные решения, наша компания арендует или закупает необходимое оборудование. Это могут быть дополнительные осветительные приборы, строительные леса, высотная подъемная техника, автономные генераторы тока, другой специализированный инструмент.</p>
+                </div>
+				<div class="tab bar">
+                    <h4 class="post-title"> 4.Предоставляете ли Вы гарантии на оборудование?</h4>
+            	</div>
+			 	<div class="panel margin-lr-7">
+	        		<p>В случаях, когда для выполнения установки требуется обеспечить какие-либо нестандартные решения, наша компания арендует или закупает необходимое оборудование. Это могут быть дополнительные осветительные приборы, строительные леса, высотная подъемная техника, автономные генераторы тока, другой специализированный инструмент.В случаях, когда для выполнения установки требуется обеспечить какие-либо нестандартные решения, наша компания арендует или закупает необходимое оборудование. Это могут быть дополнительные осветительные приборы, строительные леса, высотная подъемная техника, автономные генераторы тока, другой специализированный инструмент.</p>
+             	</div>
+                <div class="tab bar">
+                    <h4 class="post-title"> 5.Вы осуществляете доставку или нужно забирать заказ на складе?</h4>
+                </div>
+			    <div class="panel margin-lr-7">
+	        	     <p>Компания «Склад Сервис» осуществляет доставку оборудования по всей Украине. При этом используется автотранспорт, который оптимально подходит для быстрой и недорогой транспортировки заказа в зависимости от типа продукции, объема и адреса доставки. Стоимость доставки прописывается отдельной строкой в коммерческом предложении, что позволяет Вам выбрать, как лучше осуществить доставку товара: с помощью «Склад Сервис» или своими силами.
+                    Стоимость доставки прописывается отдельной строкой в коммерческом предложении, что позволяет Вам выбрать, как лучше осуществить доставку товара: с помощью «Склад Сервис» или своими силами.</p>
+                </div>
+
+            </div>
+        </div>
+       <div id="slider">
+         
+            <div id="slider_box" align = "center">
+                                    
+                <div id = "img_container">
+                                        
+                    <img src = "images/ab.jpg" height="200" width="172">
+                                        
+                    <img src = "images/del1.jpg" height="200" width="172">
+                                        
+                    <img src = "images/del2.jpg" height="200" width="172">
+                                        
+                    <img src = "images/del3.jpg" height="200" width="172">
+                                        
+                    <img src = "images/del1.jpg" height="200" width="172">
+                    
+                     <img src = "images/ab.jpg" height="200" width="172">
+                    
+                    <img src = "images/del3.jpg" height="200" width="172">
+                                   
+                </div>
+                                
+            </div>           
+                        
+        </div>
+                        
+        <div id="slider_bar"></div>
+        
+        <div id="tab">         
+            <ul>               
+                <li><a href="#tab-1">О нас</a></li>       
+                <li><a href="#tab-2">Регистрация на сайте</a></li>
+                <li><a href="#tab-3">Обратная связь и комментарии</a></li>
+                <li><a href="#tab-4">Oтказ от ответственности</a></li>
+                            
+            </ul>
+                            
+            <div id="tab-1">
+                                
+                <p class = "tab_text">
+                     Мы верим, что вещи существуют для того, чтобы делать жизнь проще, приятнее и добрее. Поэтому и поиск той самой вещи должен быть быстрым, удобным и приятным. Мы не просто продаем бытовую технику, электронику, украшения или вино. Мы помогаем найти именно то, что нужно, в одном месте и без лишних волнений, чтобы вы не тратили жизнь на поиски, а просто жили счастливо. Rozetka — это универсальный ответ на любой запрос, начало поиска и его конечная остановка, настоящий помощник. Мы навсегда избавляем своих покупателей от неприятных компромиссов, исполняем желания и позволяем мечтать смелее. Благодаря разумному поиску и честному сервису мы делаем жизнь наших клиентов немножко лучше прямо сейчас.
+
+                     И мы помогаем найти эти вещи: влюбленным подсказываем, чем удивить друг друга; спортивных мотивируем никогда не сдаваться и быстрее прогрессировать; хозяйственным даем возможность создать настоящий уют. Мы хотим, чтобы вы знали, что ищете, и могли аргументировать свой выбор. Для этого мы снимаем видеообзоры, пишем статьи и отслеживаем новинки.
+                                
+                </p>
+                            
+            </div>
+                            
+            <div id="tab-2">
+                                
+                <p class = "tab_text">
+                                    
+                    Регистрируясь на Сайте, вы соглашаетесь предоставить достоверную и точную информацию о себе и своих контактных данных.
+  
+                    В результате регистрации вы получаете логин и пароль, за безопасность которых вы несете ответственность. Вы также несете ответственность за все действия под вашим логином и паролем на Сайте. В случае утери регистрационных данных вы обязуетесь сообщить нам об этом.
+
+                </p>
+            </div>
+            <div id="tab-3">
+                <p class = "tab_text">
+                     Обращаясь к нам или оставляя комментарии на сайте, вы несете ответственность, что данное сообщение не является незаконным, вредоносным, угрожающим, клеветническим, оскорбляет нравственность, нарушает авторские права, пропагандирует ненависть и/или дискриминацию людей по расовому, этническому, половому, религиозному, социальному признакам, содержит оскорбления в адрес конкретных лиц или организаций, а также каким либо иным образом нарушает действующее законодательство Украины. Вы соглашаетесь, что любое ваше сообщение Розетка может удалять без вашего на то согласия, а также безвозмездно использовать по своему усмотрению. Розетка не несет ответственности за любую информацию размещенную пользователями Сайта.
+                </p>
+            </div>
+             
+            <div id="tab-4">
+                <p class = "tab_text">
+                     Материалы и услуги этого сайта предоставляются «как есть» без каких-либо гарантий. Розетка не гарантирует точности и полноты материалов, программ и услуг, предоставляемых на этом Сайте. Розетка в любое время без уведомления может вносить изменения в материалы и услуги, предоставляемые на этом Сайте, а также в упомянутые в них продукты и цены. В случае устаревания материалов и услуг на этом Сайте Розетка не обязуется обновлять их. Розетка ни при каких обстоятельствах не несет ответственности за любой ущерб (включая, но не ограничиваясь ущербом от потери прибыли, данных или от прерывания деловой активности), возникший вследствие использования, невозможности использования или результатов использования этого сайта.
+                                </p>
+                            </div>
+                        </div>
+ 
+    </div>
+    <div align="center">
+    <h1 >Таймер</h1>
+        <p id="timer"></p>
+
+    </div>
+    
+   <div class="footer_div">
+   <div class="footer">
+   	  <div class="wrap">	
+	     <div class="section">
+			<div class="span_1_of_4">
+				<h4>Информация </h4>
+				<ul>
+                    <li><a href="https://rozetka.com.ua/about/">О нас</a></li>
+					<li><a href="https://rozetka.com.ua/faq/">Пользовательские услуги</a></li>
+					<li><a href="https://rozetka.com.ua/terms/">Условия использования сайта</a></li>
+					<li><a href="https://rozetka.com.ua/payments-and-deliveries/">Условия доставки</a></li>
+					<li><a href="https://ru.aliexpress.com/">Товары партнёров</a></li>
+				</ul>
+            </div>
+			<div class="span_1_of_4">
+                <h4 id="anchor3">Маленькие мечты и грандиозные планы</h4>
+                 <div class = "scroll_inf">
+                             <h3>ROZETKA – самый большой онлайн-ритейлер в стране. Уже 14 лет мы воплощаем маленькие мечты и грандиозные планы миллионов людей. У нас можно найти буквально все. Мы продаем по справедливой цене и предоставляем гарантию.</h3>
+                        </div>	
+            </div>
+			<div id="anchor2" class="span_1_of_4">
+                <h4>Контакты</h4>
+				<ul>
+					<li><span>+123-456-6789</span></li>
+					<li><span>+000-111-2345</span></li>
+				</ul>
+				<div class="social-icons">
+                    <h4>Следите за нами</h4>
+					<div class="icon">
+                       <div><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" title="icon" alt="" /></a></div>
+						<div><a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" title="icon" alt="" /></a></div>
+						<div><a href="https://www.skype.com" target="_blank"><img src="images/skype.png" title="icon" alt="" /> </a></div>
+						<div><a href="https://www.instagram.com"   target="_blank"> <img src="images/i.png" height="25" title="icon" alt="" /></a></div>
+						<div class="last"><a href="https://www.youtube.com/" target="_blank"> <img src="images/y.png" title="icon" height="27"alt="" /></a></div>
+				     </div>
+                
+   	 			</div>
+            </div>
+         </div>			
+      </div>
+   </div>
+</div>
+    <div id="popup_background">
+        <div class="popup_window">
+            <div class = "cl_btn" align="right">
+                <p  class="close">&times;</p>
+            </div>
+            <div>
+                <p align = "center" id = "popup_window_title">Сообщение</p>
+                <p align = "center" id = "popup_errors">Ошибки</p>
+            </div>
+            <div class = "confrimation_buttons">
+                <p align = "center" id = "popup_button_no">Подтвердить</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var FirstDate = new Date("Jan 1, 2020 00:00:00");
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = FirstDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("timer").innerHTML = days + "d " + hours + "h "   + minutes + "m " + seconds + "s ";
+  
+            if (distance < 0) {
+    
+                clearInterval(x);
+    
+                document.getElementById("timer").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+    </script>
+   <script>
+
+        $('#slider_bar').slider({
+    min: 0,
+    max: 5450,
+    slide: function( event, ui ) {
+        $("#slider_box>div").css("margin-left",0.25*(-ui.value)+"px");
+    }
+        });
+  </script>
+  <script type="text/javascript" src = "js/jquerry.js"></script>
+    <script type="text/javascript" src = "js/scroll_anim.js"></script>
+</body>
+</html>

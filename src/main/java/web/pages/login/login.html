@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>
+        Login
+    </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="login.css"/>
+    <link crossorigin="anonymous"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          rel="stylesheet">
+    <script src='js/main.js' type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+        <form id="login_form" action="controller" method="post" class="form-signin">
+            <input type="hidden" name="command" value="login"/>
+            <h3 class="form-signin-heading">Welcome</h3>
+            <hr class="colorgraph">
+            <br>
+            <input type="text" class="form-control" name="login"
+                   placeholder="login" required autofocus/>
+            <input type="password" class="form-control" name="password"
+                   placeholder="password" required/>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">log in</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
